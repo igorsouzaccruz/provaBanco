@@ -73,6 +73,8 @@ public class ContaBanco {
         if (isStatus() && getSaldo() == 0){
             setStatus(false);
             System.out.println("Conta tipo: " + getTipo() + " Fechada...");
+        }else{
+            System.out.println("Conta não pode ser fechada...");
         }
     }
 

@@ -28,9 +28,9 @@ public class Main {
         System.out.println(contaCorrente);
         System.out.println(contaPoupanca);
         System.out.println("-----------------------------------------------------------------");
-        System.out.println("Sacar tudo e fechar conta.");
+        System.out.println("Sacar tudo da corrente e fechar conta.");
         contaCorrente.sacar(88.0);
-        contaPoupanca.sacar(180.0);
+        System.out.println("Tentar fechar conta poupança sem sacar valor");
         contaCorrente.fecharConta();
         contaPoupanca.fecharConta();
         System.out.println(contaCorrente);
